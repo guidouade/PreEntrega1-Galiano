@@ -7,9 +7,9 @@ const App = ()=>{
   return (
     <div className= "fondo">
       <Navbar />
-        <ItemListContainer />
+      <ItemListContainer greeting="Hola, bienvenido/a nuestra librería virtual" />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
